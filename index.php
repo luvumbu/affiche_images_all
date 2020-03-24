@@ -30,7 +30,7 @@ if(!empty($fichier)){
                         $valeurf = $valeurf.$lien[$i] ; 
                     }
             }         
-            if($valeurf=="tiff" || $valeurf=="jpeg" || $valeurf=="gif" || $valeurf=="png")
+            if($valeurf=="tiff" || $valeurf=="jpg" || $valeurf=="gif" || $valeurf=="png")
             {            
                 ?>
                 <img src="<?php echo $lien ?>" alt="" srcset="">
